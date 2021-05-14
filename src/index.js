@@ -243,4 +243,139 @@
 // checkStorage(100, 250);
 
 // ========== TASK 26 (Тернарный оператор) ==========
+// function checkPassword(password) {
+//     const ADMIN_PASSWORD = 'jqueryismyjam';
+//     let message;
+//         message = (password === ADMIN_PASSWORD) ? 'Access is allowed' : 'Access denied, wrong password!';
+//         console.log(message);
+//     return message;
+// }
+// checkPassword('jqueryismyjam');
 
+// ========== TASK 27 (SWITCH) ==========
+// function getSubscriptionPrice(type) {
+//     let price;
+//     switch (type) {
+//         case 'starter':
+//             price = 0;
+//         break;
+//         case 'professional':
+//             price = 20;
+//         break;
+//         case 'organization':
+//             price = 50;
+//         break;
+//     }
+//     console.log(`You subscription is ${type}, price is ${price}`);
+//     return price;
+// }
+// getSubscriptionPrice('organization');
+
+// ========== TASK 28 (SWITCH + DEFAULT) ==========
+// function checkPassword(password) {
+//   const ADMIN_PASSWORD = 'jqueryismyjam';
+//   let message;
+//     switch (password) {
+//         case null:
+//             message = 'Canceled by user!';
+//             break;
+//         case ADMIN_PASSWORD:
+//             message = 'Welcome!';
+//             break;
+//         default: message = 'Access denied, wrong password!';
+//     }
+//     console.log(message);
+//     return message;
+// }
+// checkPassword('qwer');
+
+// ========== TASK 29 (SWITCH + DEFAULT) ==========
+// function getShippingCost(country) {
+//   let message;
+//     switch (country) {
+//         case 'China':
+//             message = `Shipping to ${country} will cost 100 credits`;
+//             break;
+//         case 'Chile':
+//             message = `Shipping to ${country} will cost 250 credits`;
+//             break;
+//         case 'Australia':
+//             message = `Shipping to ${country} will cost 170 credits`;
+//             break;
+//         case 'Jamaica':
+//             message = `Shipping to ${country} will cost 120 credits`;
+//             break;
+//         default:
+//             message = 'Sorry, there is no delivery to your country'
+//     }
+//     console.log(message);
+//     return message;
+// }
+// getShippingCost('Chile');
+// getShippingCost('Australia');
+// getShippingCost('Ukraine');
+
+// ========== TASK 30 (LENGTH) ==========
+// function getNameLength(name) {
+//   const message = `Name ${name} is ${name.length} characters long`;
+//     console.log(message);
+//     return message;
+// }
+// getNameLength('Aleksandr');
+
+// ========== TASK 31 ([Index]) ==========
+// const courseTopic = 'JavaScript essentials';
+// const courseTopicLength = courseTopic.length;
+// const firstElement = courseTopic[0];
+// const lastElement = courseTopic[courseTopicLength - 1];
+// console.log(firstElement);
+// console.log(lastElement);
+
+// ========== TASK 32 (SLICE) ==========
+// function getSubstring(string, length) {
+//   const substring = string.slice(0, length);
+//     console.log(substring);
+//     return substring;
+// }
+// getSubstring('Repair droid', 5);
+
+// ========== TASK 33 (SLICE) ==========
+// function formatMessage(message, maxLength) {
+//   let result;
+//       if (message.length > maxLength) {
+//         result = `${message.slice(0, maxLength)}...`;
+//     } else {
+//         result = message;
+//     }
+//     console.log(result);
+//   return result;
+// }
+// formatMessage('Dnipropetrovsk', 6);
+
+// ========== TASK 34 (NORMALIZE STRING) ==========
+// function normalizeInput(input) {
+//     const normalizedInput = input.toLowerCase();
+//     console.log(normalizedInput);
+//     return normalizedInput;
+// }
+// normalizeInput('MerSEDEs');
+
+// ========== TASK 35 (INCLUDES) ==========
+// function checkForName(fullName, name) {
+//  const result = fullName.includes(name);
+//     console.log(result);
+//     return result;
+// }
+// checkForName('Aleksandr Bondarenko', 'Igor');
+
+// ========== TASK 36 (SPAM) ==========
+// function checkForSpam(message) {
+//   let result;
+//   // Change code below this line
+//     result = message.toLowerCase().includes('spam') || message.toLowerCase().includes('sale');
+//   // Change code above this line
+//     console.log(result);
+//     console.log(message.toLowerCase());
+//     return result;
+// }
+// checkForSpam('Hi, congratulation! Sale for you!')
