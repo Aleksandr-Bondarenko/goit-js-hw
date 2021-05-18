@@ -1,5 +1,5 @@
 // ========== MODULE 1 ==========
-'use strict'
+'use strict';
 
 // ========== TASK 1 ==========
 // const productName = 'Droid';
@@ -228,7 +228,7 @@
 //             }
 //     console.log(message = `Your discount is ${discount * 100}%`)
 //     return discount;
-    
+
 // }
 // getDiscount(10000);
 
