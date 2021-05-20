@@ -280,17 +280,130 @@
 // console.log(input3);
 
 // ========== TASK 24 ==========
+// const checkFruit = function (fruit) {
+//   const fruits = ['apple', 'plum', 'pear', 'orange'];
+
+//   return fruits.includes(fruit);
+// };
+
+// console.log(checkFruit('apple'));
+// console.log(checkFruit('banana'));
+// console.log(checkFruit('pear'));
 
 // ========== TASK 25 ==========
+// const getCommonElements = function (array1, array2) {
+//   let totalArr = [];
+//   for (const item of array1) {
+//     if (array2.includes(item)) {
+//       totalArr.push(item);
+//     }
+//   }
+
+//   return totalArr;
+// }
+
+// const inputArr1 = [1, 2, 3];
+// const inputArr2 = [2, 1, 17, 19];
+// const inputArr3 = [24, 12, 27, 3];
+// const inputArr4 = [12, 8, 3, 36, 27];
+
+// console.log(getCommonElements(inputArr1, inputArr2)); // 1, 2
+// console.log(getCommonElements(inputArr3, inputArr4)); // 12, 27, 3
 
 // ========== TASK 26 ==========
+// const calculateTotalPrice = function (order) {
+//   let total = 0;
+
+//   for (const element of order) {
+//     total += element;
+//   }
+
+//   return total;
+// }
+
+// console.log(calculateTotalPrice([12, 85, 37, 4])); // 138
 
 // ========== TASK 27 ==========
+// const filterArray = function (numbers, value) {
+//   const filteredNumbers = [];
+
+//   for (const number of numbers) {
+//     if (number > value) {
+//       filteredNumbers.push(number);
+//     }
+//   }
+
+//   return filteredNumbers;
+// }
+
+// console.log(filterArray([12, 24, 8, 41, 76], 38)); //[41, 76]
 
 // ========== TASK 28 ==========
+// const a = 3 % 3;
+// const b = 4 % 3;
+// const c = 11 % 4;
+// const d = 12 % 7;
+// const e = 8 % 6;
+
+// console.log(a);
+// console.log(b);
+// console.log(c);
+// console.log(d);
+// console.log(e);
 
 // ========== TASK 29 ==========
+// const getEvenNumbers = function (start, end) {
+//   let numArr = [];
+//   for (let i = start; i <= end; i += 1) {
+//     if (i % 2 === 0) {
+//       numArr.push(i);
+//     }
+//   }
+//   return numArr;
+// };
+
+// console.log(getEvenNumbers(6, 12)); // [(6, 8, 10, 12)];
 
 // ========== TASK 30 ==========
+// const start = 6;
+// const end = 27;
+// let number;
+
+// for (let i = start; i < end; i += 1) {
+//   if (i % 5 === 0) {
+//     number = i;
+
+//     break;
+//   }
+// }
+
+// console.log(number);
+
+// ========== TASK 31 ==========
+// const findNumber = function (start, end, divisor) {
+//   for (let i = start; i < end; i += 1) {
+//     if (i % divisor === 0) {
+//       return i;
+//     }
+//   }
+// };
+
+// console.log('Number -', findNumber(6, 9, 4)); //8
 
 // ========== TASK 32 ==========
+// const includes = function (array, value) {
+//   let a = false;
+//   for (arrItem of array) {
+//     if (arrItem === value) {
+//       a = true;
+//     }
+//   }
+
+//   return a;
+// };
+
+// console.log(
+//   includes(['Earth', 'Mars', 'Venus', 'Jupiter', 'Saturn'], 'Jupiter'),
+// );
+
+// console.log(includes([1, 2, 3, 4, 5], 17));
